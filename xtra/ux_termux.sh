@@ -10,6 +10,8 @@ echo -e "\n*** Spam incoming in 5 ***"
 
 sleep 6
 
+yes|apt update && yes|apt upgrade
+
 yes|apt install \
     apt-utils curl git gnupg2 wget unzip tree gcc zlib1g-dev neofetch \
     apt-transport-https build-essential coreutils jq pv ffmpeg mediainfo \
